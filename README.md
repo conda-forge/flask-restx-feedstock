@@ -121,4 +121,5 @@ Feedstock Maintainers
 =====================
 
 * [@SVilgelm](https://github.com/SVilgelm/)
+* [@fhoehle](https://github.com/fhoehle/)
 
