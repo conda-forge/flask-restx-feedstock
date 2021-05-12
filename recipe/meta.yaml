@@ -1,6 +1,6 @@
 {% set name = "flask-restx" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "77cb990d16b36b22582c48b42b8841130b80c18d1e2f7c8a361d96d238d5327c" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "8bdbfd8ad2949383c490b3b180481c0e9f70163230a5b567a56592c82f7c5cb0" %}
 
 package:
   name: {{ name|lower }}
