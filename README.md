@@ -1,11 +1,11 @@
-About flask-restx
-=================
+About flask-restx-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-restx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/python-restx/flask-restx/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-restx-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fully featured framework for fast, easy and documented API development with Flask
 
