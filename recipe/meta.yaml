@@ -1,6 +1,6 @@
 {% set name = "flask-restx" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "62b6b6c9de65e5960cf4f8b35e1bd3eca6998838a01b2f71e2a9d4c14a4ccd14" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "9a5338b108c57fbed1d24d5d53fe98442b2be7ffa2ff3291305af7a613ce6fc0" %}
 
 package:
   name: {{ name|lower }}
@@ -17,14 +17,14 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - aniso8601 >=0.82
-    - jsonschema
+    - jsonschema <=4.17.3
     - Flask >=0.8,!=2.0.0,<3
-    - werkzeug !=2.0.0
+    - werkzeug !=2.0.0,<3
     - pytz
 
 test:
