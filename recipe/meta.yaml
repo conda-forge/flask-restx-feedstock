@@ -32,7 +32,9 @@ test:
   imports:
     - flask_restx
   commands:
-    - pip check    
+    - pip check
+  requires:
+    - pip    
 
 about:
   home: https://github.com/python-restx/flask-restx/
