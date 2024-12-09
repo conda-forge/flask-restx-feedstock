@@ -17,10 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - aniso8601 >=0.82
     - jsonschema
     - Flask >=0.8,!=2.0.0
@@ -34,6 +35,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip    
 
 about:
