@@ -28,7 +28,6 @@ requirements:
     - jsonschema
     - Flask >=0.8,!=2.0.0
     - werkzeug !=2.0.0
-    - pytz
     - importlib-resources
 
 test:
