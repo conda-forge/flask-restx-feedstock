@@ -18,7 +18,6 @@ Flask-RESTX encourages best practices with minimal setup. If you are familiar wi
 Flask-RESTX should be easy to pick up. It provides a coherent collection of decorators and
 tools to describe your API and expose its documentation properly using Swagger.
 
-
 Current build status
 ====================
 
